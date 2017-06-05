@@ -19,8 +19,8 @@ require('db.inc.php');
 const CONFIG_SITE_LANGUAGE = 'en';
 
 // general site settings
-const CONFIG_SITE_NAME = 'Mellivora';
-const CONFIG_SITE_SLOGAN = 'Mellivora, the CTF engine';
+const CONFIG_SITE_NAME = 'StraBear';
+const CONFIG_SITE_SLOGAN = 'StraBear, the wild CTF platform';
 const CONFIG_SITE_DESCRIPTION = '';
 const CONFIG_SITE_URL = 'http://localhost/';
 const CONFIG_SITE_URL_STATIC_RESOURCES = 'http://localhost/';
