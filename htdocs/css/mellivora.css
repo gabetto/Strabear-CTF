@@ -1,9 +1,18 @@
 /**
     Page layout
 **/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu+Condensed');
 
 body {
     background-color: #eaeaea;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .page {
