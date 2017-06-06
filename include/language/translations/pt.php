@@ -1,13 +1,13 @@
 <?php
 
 $lang['sorry'] = 'Desculpe';
-$lang['after_release'] = 'after release';
+$lang['after_release'] = 'Após liberar';
 $lang['position'] = 'Posição';
 $lang['team'] = 'Time';
 $lang['points'] = 'Pontos';
 $lang['points_short'] = 'pts';
 $lang['country'] = 'País';
-$lang['solved'] = 'Solved';
+$lang['solved'] = 'Resolvido';
 $lang['home'] = 'Início';
 $lang['profile'] = 'Perfil';
 $lang['scores'] = 'Pontuação';
@@ -24,44 +24,44 @@ $lang['challenge'] = 'Desafio';
 $lang['added'] = 'Adicionado';
 $lang['challenges'] = 'Desafios';
 $lang['category'] = 'Categoria';
-$lang['ctf_empty'] = 'Seu CTF parece estar um pouco vazio! Comece adicionando uma categoria usando o painel de administrador.';
+$lang['ctf_empty'] = 'Seu CTF parece estar um pouco vazio! Comece adicionando uma categoria usando o painel de administrador';
 $lang['available_in'] = 'Disponivel em';
 $lang['cat_unavailable'] = 'Categoria inexistente';
 
-$lang['two_factor_auth'] = 'Two-factor authentication';
-$lang['two_factor_auth_required'] = 'Two-factor authentication required';
-$lang['enable_two_factor_auth'] = 'Enable two-factor authentication';
-$lang['disable_two_factor_auth'] = 'Disable two-factor authentication';
-$lang['generate_codes'] = 'Generate codes';
-$lang['using_totp'] = 'using TOTP';
-$lang['scan_with_totp_app'] = 'Scan with your TOTP app';
-$lang['authenticate'] = 'Authenticate';
+$lang['two_factor_auth'] = 'Autenticação em duas etapas';
+$lang['two_factor_auth_required'] = 'Autenticação em duas etapas requerida';
+$lang['enable_two_factor_auth'] = 'Ativar autenticação em duas etapas';
+$lang['disable_two_factor_auth'] = 'Desativar autenticação em duas etapas';
+$lang['generate_codes'] = 'Gerar códigos';
+$lang['using_totp'] = 'Usando TOTP';
+$lang['scan_with_totp_app'] = 'Procurar por seu TOTP app';
+$lang['authenticate'] = 'Autenticado';
 
-$lang['save_changes'] = 'Save changes';
-$lang['reset_password'] = 'Reset password';
-$lang['choose_password'] = 'Choose password';
-$lang['password'] = 'Password';
-$lang['email_password_on_signup'] = 'A confirmation email containing a random password will be sent to the chosen address.';
+$lang['save_changes'] = 'Salvar alterações';
+$lang['reset_password'] = 'Redefinir senha';
+$lang['choose_password'] = 'Escolha a senha';
+$lang['password'] = 'Senha';
+$lang['email_password_on_signup'] = 'Um email de confirmação contendo uma senha aleatória será enviado para o endereço escolhido.';
 
-$lang['register'] = 'Register';
-$lang['register_your_team'] = 'Register your team';
-$lang['account_signup_information'] = 'Your team shares one account. {password_information}';
-$lang['team_name'] = 'Team name';
-$lang['select_team_type'] = 'Please select team type';
-$lang['registration_closed'] = 'Registration is currently closed, but you can still <a href="interest">register your interest for upcoming events</a>.';
-$lang['please_fill_details_correctly'] = 'Please fill in all the details correctly.';
-$lang['invalid_team_type'] = 'That does not look like a valid team type.';
-$lang['team_name_too_long_or_short'] = 'Your team name was too long or too short.';
-$lang['email_not_whitelisted'] = 'Email not on whitelist. Please choose a whitelisted email or contact organizers.';
-$lang['user_already_exists'] = 'An account with this team name or email already exists.';
-$lang['signup_successful'] = 'Signup successful';
-$lang['signup_successful_text'] = 'Thank you for registering! Your chosen email is: {email}. Make sure to check your spam folder as emails from us may be placed into it. Please stay tuned for updates!';
-$lang['your_password_is'] = 'Your password is';
-$lang['your_password_was_set'] = 'Your password was chosen by you on signup.';
+$lang['register'] = 'Registrar';
+$lang['register_your_team'] = 'Registre seu time';
+$lang['account_signup_information'] = 'Seu time compartilha uma conta. {password_information}';
+$lang['team_name'] = 'Nome do time';
+$lang['select_team_type'] = 'Por favor, escolha o tipo de time';
+$lang['registration_closed'] = 'No momento os registos estão encerrados, mas você pode <a href="interest">registrar seu interesse para próximos eventos</a>.';
+$lang['please_fill_details_correctly'] = 'Favor preencher todos os dados corretamente.';
+$lang['invalid_team_type'] = 'Este não parece ser um tipo de time válido.';
+$lang['team_name_too_long_or_short'] = 'O nome do seu time é muito extenso ou muito curto.';
+$lang['email_not_whitelisted'] = 'Este email não consta em nossa Lista Branca.Favor selecionar um email que conta em nossa lista ou contactar os organizadores.';
+$lang['user_already_exists'] = 'Nome do time ou email ja esta registrado em uma conta.';
+$lang['signup_successful'] = 'Inscrição efetuada com sucesso!';
+$lang['signup_successful_text'] = 'Obrigado por se registrar! Seu email é: {email}. Certifique- se de olhar sua pasta de spam pois nossos emails podem ser direcionados para ela. Fique ligado em nossas atualizações!';
+$lang['your_password_is'] = 'Sua senha é';
+$lang['your_password_was_set'] = 'Sua senha foi escolhida por você ao se cadastrar.';
 
-$lang['signup_email_subject'] = '{site_name} account details';
+$lang['signup_email_subject'] = '{site_name} Detalhes da conta';
 $lang['signup_email_success'] =
-    '{team_name}, your registration at {site_name} was successful.' .
+    '{team_name}, seu registro em {site_name} foi concluido com sucesso.' .
     "\r\n" .
     "\r\n" .
     '{signup_email_availability}' .
@@ -70,10 +70,10 @@ $lang['signup_email_success'] =
     '{signup_email_password}' .
     "\r\n" .
     "\r\n" .
-    'Please stay tuned for updates!' .
+    'Fique atento em nossas atualizações!' .
     "\r\n" .
     "\r\n" .
-    'Regards,' .
+    'Saudações,' .
     "\r\n" .
     '{site_name}'
 ;
@@ -139,10 +139,10 @@ $lang['challenge_relies_on'] = 'The details for this challenge will be displayed
 
 $lang['no_reset_data'] = 'No reset data found.';
 
-$lang['scoreboard'] = 'Scoreboard';
+$lang['scoreboard'] = 'Placar';
 $lang['first_solvers'] = 'First solvers';
-$lang['percentage_solvers'] = 'Solved by';
-$lang['unsolved'] = 'Unsolved';
+$lang['percentage_solvers'] = 'Resolvido por';
+$lang['unsolved'] = 'Não resolvido';
 
 $lang['user_details'] = 'User details';
 $lang['no_user_found'] = 'No user found with that ID';
@@ -171,49 +171,49 @@ $lang['user_class_user'] = 'User';
 $lang['user_class_moderator'] = 'Moderator';
 $lang['user_class_unknown'] = 'Unknown user class';
 
-$lang['manage'] = 'Manage';
+$lang['manage'] = 'Gerenciar';
 $lang['add_news_item'] = 'Add news item';
 $lang['list_news_item'] = 'List news items';
 $lang['news'] = 'News';
 
-$lang['categories'] = 'Categories';
-$lang['add_category'] = 'Add category';
-$lang['list_categories'] = 'List categories';
+$lang['categories'] = 'Categorias';
+$lang['add_category'] = 'Adicionar categorias';
+$lang['list_categories'] = 'Listar categorias';
 
-$lang['add_challenge'] = 'Add challenge';
-$lang['list_challenges'] = 'List challenges';
+$lang['add_challenge'] = 'Adicionar desafio';
+$lang['list_challenges'] = 'Listar desafios';
 
-$lang['submissions'] = 'Submissions';
+$lang['submissions'] = 'Submissões';
 $lang['list_submissions_in_need_of_marking'] = 'List submissions in need of marking';
 $lang['list_all_submissions'] = 'List all submissions';
 
-$lang['users'] = 'Users';
-$lang['list_users'] = 'List users';
-$lang['user_types'] = 'User types';
-$lang['add_user_type'] = 'Add user type';
-$lang['list_user_types'] = 'List user types';
+$lang['users'] = 'Usuários';
+$lang['list_users'] = 'Listar usuários';
+$lang['user_types'] = 'Tipos de usuários';
+$lang['add_user_type'] = 'Adicionar tipo de usuário';
+$lang['list_user_types'] = 'Listar tipos de usuários';
 
-$lang['signup_rules'] = 'Signup rules';
-$lang['list_rules'] = 'List rules';
-$lang['new_rule'] = 'New rule';
-$lang['test_rule'] = 'Test rule';
+$lang['signup_rules'] = 'Regas de inscruição';
+$lang['list_rules'] = 'Listar regras';
+$lang['new_rule'] = 'Nova regra';
+$lang['test_rule'] = 'Regra de teste';
 
-$lang['single_email'] = 'Single email';
+$lang['single_email'] = 'Email individual';
 $lang['email_all_users'] = 'Email all users';
 
-$lang['new_hint'] = 'New hint';
-$lang['list_hints'] = 'List hints';
+$lang['new_hint'] = 'Nova dica';
+$lang['list_hints'] = 'Listar dicas';
 
-$lang['dynamic_content'] = 'Dynamic content';
-$lang['new_menu_item'] = 'New menu item';
-$lang['list_menu_items'] = 'List menu items';
+$lang['dynamic_content'] = 'Conteudo dinâmico';
+$lang['new_menu_item'] = 'Novo menu de itens';
+$lang['list_menu_items'] = 'Listar menus';
 $lang['menu'] = 'Menu';
-$lang['new_page'] = 'New page';
-$lang['list_pages'] = 'List pages';
-$lang['pages'] = 'Pages';
+$lang['new_page'] = 'Nova página';
+$lang['list_pages'] = 'Listar páginas';
+$lang['pages'] = 'Páginas';
 
-$lang['exceptions'] = 'Exceptions';
-$lang['list_exceptions'] = 'List exceptions';
-$lang['clear_exceptions'] = 'Clear exceptions';
+$lang['exceptions'] = 'Exceções';
+$lang['list_exceptions'] = 'Listar exceções';
+$lang['clear_exceptions'] = 'Limpar exceções';
 
-$lang['search'] = 'Search';
+$lang['search'] = 'Procurar';
